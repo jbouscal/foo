@@ -1,6 +1,11 @@
-x = 1
-if x == 1:
+import random
+
+#for x in range(10):
+
+x = random.randint(0,10)
+
+if x < 5:
     # indented four spaces
-    print("x is 1.")
+    print("x is less than 5.")
 else:
-    print("x is not 1")
+    print("x is greater than 5")
